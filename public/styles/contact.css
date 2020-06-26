@@ -1,0 +1,223 @@
+body{font-family: 'Lato', sans-serif;
+    
+}
+
+.site-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 25vh;
+}
+
+
+.site-main{
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+main{
+    background: green;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: vh;
+    color: white;
+
+    
+    
+    
+}
+
+.site-footer{
+    background: black;
+    height: 3 vh;
+    font-size: 12px;
+    width: 98%;
+    
+}
+nav{
+    padding: 20px;
+    padding-right: 50px;
+}
+
+
+
+
+
+.logo{
+    width: 130px;
+    border-radius: 5px;
+           
+    padding-left:0px;
+
+}
+
+
+nav a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+ nav a:hover{
+     color: #d6da19;
+
+ }
+
+
+.site-header-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom:5px solid #0a0600e8;
+    text-align: center;
+}
+.main-pic-img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    padding: px;
+    margin-bottom: -2px;
+
+}
+.main-pic{
+    display: flex; 
+    justify-content: space-around;
+    background: transparent;
+    
+}    
+
+.main-pic-text{
+    display: block;
+    margin-top: -18px;
+    padding-top: 0px;
+    background: burlywood;
+    color: blue;
+    height: 35px;
+    width: 400px;
+
+}
+   
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+}
+
+.animals{
+    display: flex;
+    justify-content: baseline; 
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+.coy{
+    color: white;
+    text-transform: uppercase;
+    text-align: start;    
+    font-size: 14px;
+
+}
+
+.Goldfinch{
+    color: white;
+    text-transform: uppercase;
+    text-align: inherit ;
+    font-size: 14px;
+}
+
+.square{
+    flex-basis: calc(50% - 10px);
+    padding: 5px;
+    width: 300px;
+    
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.square-text{
+    text-align: center;
+    background: burlywood;
+    width: 300px;    
+}
+
+.news-img{
+    width: 300px;
+    margin-bottom: -30px;
+    
+}
+.news-img:hover{
+    transition: scale(1.1);
+    border-bottom: 3px solid #e1e413;
+}
+
+
+h3{
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    padding: 5px;
+}
+.button-news{
+    text-align: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+h5{
+    background: #e1e413;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+h5:hover{
+    transform: scale(1.1);
+}
+
+
+
+.contact-info{
+    background: blueviolet;
+    color: black;
+    height: 85vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;border: 2px solid red;
+    margin-bottom: 10px;
+
+
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    height: 30px;
+}

@@ -1,0 +1,138 @@
+#bod {
+    background: rgba(102, 146, 65, 0.973)
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(29, 31, 32);
+    color: white;
+}
+
+.container {
+    border: 1px solid rgb(129, 156, 187);
+    padding: 0;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+.col-4 {
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+
+img {
+    width: 200px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.bike {
+    background: burlywood;
+    height: 400px;
+
+    flex-basis: (40% - 10px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+
+}
+
+/* main {
+    height: 200px;
+} */
+
+header {
+    background: magenta;
+    color: black;
+    height: 100px;
+    text-align: center;
+}
+
+.site-footer {
+    height: 300 px;
+    background: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0
+}
+
+footer {
+    height: 30px;
+    background: rgb(14, 13, 13);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ft {
+    height: 50vh;
+}
+
+.mybtn {
+    background: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.imgItem {
+    width: 30px;
+
+}
+
+.space {
+    height: 200vh;
+}
+
+
+
+
+
+.contact-info {
+    background: grey;
+    color: white;
+    height: 90vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background: blue;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    border: black;
+
+}
